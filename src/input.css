@@ -98,3 +98,14 @@
 .motion-paused *,.motion-paused *:before,.motion-paused *:after{animation-play-state:paused!important;transition:none!important}.motion-paused .reveal-ready{opacity:1;transform:none}.motion-paused{scroll-behavior:auto}
 /* Pausar os efeitos mantém concluídas as animações de entrada e abertura. */
 .motion-paused .hero-copy,.motion-paused .hero-last svg,.motion-paused .boarding-pass,.motion-paused details[open]>p,.motion-paused dialog[open]{animation:none!important}
+
+/* Botões de contato baseados na referência NoMerkado. */
+.plan .wa{display:flex;align-items:center;justify-content:center;gap:10px;background:#4caf50;color:#fff;text-decoration:none;font-weight:700;font-size:13px;padding:15px;border:0;border-radius:12px;transition:filter .2s;box-shadow:none}
+.plan .wa:hover{background:#4caf50;color:#fff;filter:brightness(1.08);box-shadow:none}
+.plan .wa svg{width:20px;height:20px;fill:currentColor;flex-shrink:0}
+.featured .wa,.featured .wa:hover{background:#0a0a0a;color:#fff}
+.closing .wa-big{display:inline-flex;align-items:center;justify-content:center;gap:12px;background:#4caf50;color:#fff;font-weight:800;font-size:16px;padding:18px 24px;border:0;border-radius:14px;transition:filter .2s;box-shadow:none}
+.closing .wa-big:hover{background:#4caf50;color:#fff;filter:brightness(1.08);box-shadow:none}
+.wa-big svg{width:24px;height:24px;fill:currentColor;flex-shrink:0}
+@media(min-width:360px){.plan .wa{font-size:16px}}
+@media(min-width:640px){.closing .wa-big{font-size:18px;padding:18px 40px}}
