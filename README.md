@@ -21,7 +21,8 @@ npm run build
 - Cota 02: R$ 2.500,00 / 2 ingressos.
 - Cota 03: R$ 6.500,00 / tudo da Cota 02, stand no padrão do evento e ativação de marca / 2 ingressos no total.
 - Apresentação do projeto, público previsto, quatro pilares e realização.
-- Logo oficial da BGA junto às perspectivas da cenografia.
+- Logos oficiais do Check-in 360, ABIH-PI e Hospa em SVG, extraídas dos vetores dos PDFs. ABIH em versão monocromática clara e Hospa com lettering claro para o fundo escuro.
+- BGA extraída com sua máscara de transparência original, em WebP, na área de realização e junto à cenografia.
 - Galeria ampliável com navegação por botões, teclado e gesto horizontal.
 - Entrada do cartão de embarque, revelação de conteúdo, contadores e faixa animada.
 - Botão “Pausar efeitos” no rodapé e respeito a `prefers-reduced-motion`.
