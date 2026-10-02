@@ -1,5 +1,5 @@
-// Informe o WhatsApp oficial com código do país e DDD para ativar o atendimento direto.
-const WHATSAPP_NUMBER = '';
+// WhatsApp oficial informado pela organização, com país e DDD.
+const WHATSAPP_NUMBER = '558698091567';
 const prices = { '01': '1.500,00', '02': '2.500,00', '03': '6.500,00' };
 const dialog = document.querySelector('#interest-dialog');
 const message = document.querySelector('#interest-message');

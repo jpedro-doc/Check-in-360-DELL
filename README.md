@@ -30,7 +30,7 @@ npm run build
 
 ## Contato comercial
 
-Preencha `WHATSAPP_NUMBER` em `script.js`, somente com números, incluindo país e DDD. Enquanto não configurado, os botões abrem uma mensagem para copiar; não enviam nem registram reservas.
+O WhatsApp está configurado como `558698091567` em `script.js`. Os botões das cotas abrem o atendimento com uma mensagem que identifica a cota, o preço e os benefícios. Para trocar o número, altere `WHATSAPP_NUMBER`, mantendo somente números, incluindo país e DDD.
 
 ## Publicação
 
