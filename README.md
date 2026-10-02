@@ -34,7 +34,7 @@ Preencha `WHATSAPP_NUMBER` em `script.js`, somente com números, incluindo país
 
 ## Publicação
 
-Publique `index.html`, `styles.css`, `script.js`, `assets/` e `360 ROAD SHOW.pdf` juntos. Após definir o domínio, substitua `og:image` por uma URL absoluta da imagem e adicione `og:url`. A data do evento não foi fornecida e não foi inventada.
+O comando `npm run build` compila o Tailwind e gera `dist/` com HTML, CSS, JavaScript, imagens, fonte e PDF. Na Vercel, `vercel.json` define o preset estático, o build e a pasta de saída. Para outras hospedagens, publique o conteúdo de `dist/`. Após definir o domínio, substitua `og:image` por uma URL absoluta da imagem e adicione `og:url`. A data do evento não foi fornecida e não foi inventada.
 
 ## Fontes dos materiais
 
