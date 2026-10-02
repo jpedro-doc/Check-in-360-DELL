@@ -6,3 +6,5 @@
 .hero-art img{display:block;position:static;width:100%;height:auto;object-fit:contain;border-radius:8px}
 .image-tag{position:static;margin:0;padding:16px 8px;border-radius:0 0 8px 8px;background:var(--green);color:var(--cream)}
 @media(max-width:760px){.hero-art{width:100%;margin-bottom:12px;box-shadow:7px 7px 0 #e8eadd}}
+
+.scenography-credit{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:26px;padding-top:24px;border-top:1px solid var(--line)}.scenography-credit .caption{margin:9px 0 0}.scenography-credit img{display:block;width:240px;max-width:100%;height:auto;border-radius:4px}@media(max-width:760px){.scenography-credit{align-items:flex-start;flex-direction:column;gap:18px}.scenography-credit img{width:220px}}
