@@ -147,4 +147,4 @@
 .brand-example h4{font-family:var(--font-display);font-weight:800;font-size:29px;line-height:1.1;margin-top:10px}
 .brand-example p{font-size:12px;margin-top:8px}
 .brand-examples-note{font-size:11px;text-align:center;margin-top:18px}
-@media(min-width:768px){.brand-examples{margin-top:70px;padding-top:48px}.brand-examples-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.brand-example figcaption{padding:20px}.brand-example h4{font-size:27px}}
+@media(min-width:768px){.brand-examples{margin-top:70px;padding-top:48px}.brand-examples-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-example figcaption{padding:20px}.brand-example h4{font-size:27px}}
