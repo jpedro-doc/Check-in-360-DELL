@@ -129,3 +129,22 @@
 .scenography-credit img{width:min(100%,280px);height:auto;border-radius:0}
 .footer-top .brand img{display:block;width:82px;height:auto}
 @media(min-width:768px){.header .brand img{width:73px}.header{min-height:116px}.hero-identity>img{width:120px}.hero-identity .event-tag{font-size:11px}.organizers{padding:34px 40px}.organizer-heading{margin-bottom:35px}.organizer-heading p{font-size:13px;max-width:none}.organizer-logos{grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}.organizer-logos .organizer-bga{grid-column:auto;padding-top:0;border:0}.organizer-logos img{max-width:235px;height:103px}.organizer-logos figcaption{font-size:10px}.organizer-bga img{max-width:265px;height:103px}.scenography-credit img{width:320px}.footer-top .brand img{width:94px}}
+
+/* Exemplos de aplicação das marcas junto às cotas. */
+.plan li{display:flex;align-items:baseline;gap:10px}.plan li:before{flex-shrink:0;margin-right:0}
+.brand-examples{margin-top:56px;padding-top:40px;border-top:1px solid #ff792e33}
+.brand-examples-heading{max-width:620px;margin-bottom:28px}
+.brand-examples-heading h3{font-size:clamp(36px,7vw,52px);color:#f8eee6}
+.brand-examples-heading p{margin-top:16px;font-size:14px}
+.brand-examples-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:20px}
+.brand-example{margin:0;min-width:0;overflow:hidden;border:1px solid #49403a;border-radius:12px;background:#181614}
+.brand-example button{display:block;position:relative;width:100%;overflow:hidden;background:#211a15}
+.brand-example img{display:block;width:100%;aspect-ratio:1.24;object-fit:cover}
+.brand-example-shirt button{background:radial-gradient(ellipse at center,#ff792e16,transparent 70%)}
+.brand-example-shirt img{object-fit:contain;padding:12px}
+.brand-example figcaption{padding:22px;border-top:1px solid #ffffff0c}
+.brand-example small{font-size:8px;letter-spacing:1.2px;color:var(--orange)}
+.brand-example h4{font-family:var(--font-display);font-weight:800;font-size:29px;line-height:1.1;margin-top:10px}
+.brand-example p{font-size:12px;margin-top:8px}
+.brand-examples-note{font-size:11px;text-align:center;margin-top:18px}
+@media(min-width:768px){.brand-examples{margin-top:70px;padding-top:48px}.brand-examples-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.brand-example figcaption{padding:20px}.brand-example h4{font-size:27px}}

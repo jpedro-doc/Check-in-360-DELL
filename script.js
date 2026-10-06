@@ -7,7 +7,7 @@ const status = document.querySelector('#copy-status');
 document.querySelectorAll('[data-plan]').forEach(button => {
   button.addEventListener('click', () => {
     const plan = button.dataset.plan;
-    const benefits = plan === '03' ? '2 ingressos, stand no padrão do evento e ativação de marca' : plan === '02' ? '2 ingressos' : '1 ingresso';
+    const benefits = `${plan === '01' ? '1 ingresso' : '2 ingressos'}, participação no Check-in 360 e aplicação da logo no backdrop oficial, na camisa e no outdoor${plan !== '01' ? ', aplicação da logo em totens LED no evento' : ''}${plan === '03' ? ', stand exclusivo da marca e espaço exclusivo de ativação da marca' : ''}`;
     const text = `Olá! Tenho interesse na Cota ${plan} do Check-in 360 Destinos Piauí, no valor de R$ ${prices[plan]}, com ${benefits}. Gostaria de saber como confirmar a participação da minha empresa.`;
     if (/^\d{12,13}$/.test(WHATSAPP_NUMBER)) {
       window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
